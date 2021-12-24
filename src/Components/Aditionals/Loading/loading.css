@@ -1,0 +1,11 @@
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.loading > h2 + img {
+    width: 160px;
+}
